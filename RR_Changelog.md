@@ -1,0 +1,1980 @@
+ 
+  Resurrection Remix ROM Marshmallow 2016
+
+  Source Code: http://github.com/ResurrectionRemix
+  Website: http://www.resurrectionremix.com
+  For extended changelog, track github activities
+  
+  The Changelog
+
+# ResurrectionRemix - v5.6.7 - Android r24 - 20160409
+
+- Android 6.0.1_r22 -> 6.0.1_r24
+- Add 5 RR 1 PB header logo
+- Update taskmanager switch button
+- Add Heads-up button in the extended statusbar
+- SystemUI: Fix Dual Tiles Qs Color Switch Text
+- Revert Restart System UI on theme Change and NP color switch
+- Heads Up Snooze
+- Fix low battery warning level
+- 2 more SB Custom logos
+- HeadsUp: add timeout option
+- Reverted clock second (Avoid to lag issues)
+- Fix Applying Notification Colors To Light StatusBar Background 
+- Tune up dexopt dialog
+- Settings: Make Most RR settings Searchable
+- DevelopmentSettings: Synchronize USB connection data state 
+- Lockscreen : Fix bottom area visibility
+- media: Add flags, channelMask, and UID to audio session callbacks
+- audio: Don't play sound effects if stream is muted 
+- SystemUI: show visualizer in shade-locked view
+- Bugfixes for systemUI
+- Fix location tile not showing in the keyguard
+- NetworkManagement: Add ability to restrict app WiFi background data access
+- SystemUI: ensure volume record exists before showing notification 
+- MountService: ensure VolumeRecord with UUID exists before modifying
+- Implement left swipe on lockscreen
+- Framework changes for resetting data usage statistics 
+- LLS: Use window attachment callbacks
+- SysUI: Add event logs for live lock screen interactions  
+- Fix battery stats helper derp
+- Update ambientsdk version 1.5.2
+- Add Weather Content Provider
+- Add state member to WeatherLocation class
+- Reset timer when a new weather service provider is selected
+- Force Heads up in all applications
+- Add system property to control config_enableAutoPowerModes
+- SysUI/LLS: Slide panel out when collapse called 
+- QS:Re Add LS Tile and Addapt to AOSP panel
+- translation imports
+- For more info Track Github Activities
+
+# ResurrectionRemix - v5.6.6 - 20160401
+
+- SystemUI: Restart System UI on theme Change and NP color switch
+- LLS: Add LiveLockScreenController
+- Update RR logos
+- SystemUI : Fix Network Traffic Colors Not updating 
+- SystemUI: Fix headsup stuck after theme change and recreate statusbar
+- [SQUASHED]Mass Revert of CM's Qs Drag Panel 
+- FWBase : Port & Improve CPU boosting Hooks && Interface
+- Fix headsup blacklist and whitelist
+- SystemUI :[Squashed] Fixed Leaks and Observers 
+- SystemUI: Reduce Load On ContentObservers 
+- SystemUI: Optimizations and cleanups
+- ix metrics density comparisons
+- GlobalActions: Set the initial status of airplane mode toggle
+- SystemUI: Change demo mode time of day. 
+- Prompt permission dialog for status bar weather
+- Should use scan flag, or it will not scan device.
+- base: pipe all IME hints regardless of IME notification state/settings
+- SystemUI: Fix Notification panel NPE 
+- Qs: Improve Themes Tile
+- [ThemesTile] Sort themes 
+- Port ThemesTile to new CMTE api
+- Compile app theme in background
+- Cast Tile: only scan while in detail view
+- SystemUI: more consistent visualizer logic 
+- Fling : Gallery icon support
+- camera2 legacy: Allow HDR processing to take a while 
+- Cleanup Ls Weather Layout
+- Revert "MediaScanner behavior on boot
+- Add Resurrection ringtone v2
+- Hack to remove black bar on custom lockscreen wallpaper 
+- Themes: Fail theme install if common resources fail
+- SystemUI: stop hiding hotspot & color inversion tiles 
+- For more info Track Github Activities
+- Translations updates
+
+# ResurrectionRemix - v5.6.5 - 20160313 #Marshmallow 6.0.1_r22
+
+- Android 6.0.1_r17 -.6.0.1_r22
+- SystemUI: Optimizations and cleanups
+- Add needed callbacks to refresh statusbar view and update contents
+- clean up do not stress (recreate statusbar)
+- Prevent to fix statusbar lag issues
+- Revert pie control (deprecated and breaking things) thanks to varun date
+- Revert edge gesture service (deprecated and breaking things)
+- Fix system ui NPE when device rotated
+- Don't refresh ui when screen off
+- Fixed lockscreen clock and date color not updating after disable refresh ui when screen is off
+- Clean up scrollbars (deprecated)
+
+# ResurrectionRemix - v5.6.5 - 20160311 #Marshmallow 6.0.1_r17
+
+- Android 6.0.1_r13 -.6.0.1_r17
+- Major Clean up & Fix to SystemUI. Memory Leak has been majorly fixed and Lags Have Been taken care of
+- Fix 1st Boot stuck on "Preparing Contacts Storage"
+- StatusBar Icon Colors
+- Statusbar: Custom Logos and Styles
+- Qs Custom Colors
+- Recents Custom Clear All Styles
+- Recents Panel Customizations
+- Recents Clear All FAB animations
+- QS/TM : Update task manager UI & add fab button
+- More Lockscreen Colors
+- Lockscreen Weather Colors
+- Powermenu Torch option
+- DU Pulse,Fling, Smartbar (Revert Cms navbar)
+- Qs Vibrations
+- Improve Navbar Tile
+- Add Allways QuickPullDown option
+- Revert "Frameworks: Slim Shortcuts"
+- Revert "Option to Set no of Qs Rows and Columns" (suspected to cause lag)
+- New Qs Stock Icons
+- Optional Dashboard switches
+- Clock Color Switch
+- Change No weather button as imagebutton layout
+- SysUI: Clear notification data when recreating status bar
+- audiosystem: Add API for listening to effect session events
+- sensors: Create bool to select what timestamp to use
+- SystemUI: Add PERFORMANCE_ACCESS permission.
+- base: Fix proximity check on non power key
+- SysUI: Fix hiding sensitive notification behavior
+- Allow to ignore presentation indicator of outgoing calls
+- dock battery
+- Revert "PhoneWindowManager: add ability to use EdgeGestureService
+- intel: Pick the best ABI based on number of libs, not just priority
+- NetworkPolicyManager : Process low power mode change on background thread
+- Fix bottom shortcuts default icon tint color
+- Frameworks: Fix hw menu key from unlocking on swipe
+- Revert "Heads Up Timeout & Snooze 1/2"
+- Settings: fix indexing for saved access point settings
+- Settings: Fix SecuritySettings filtering.
+- Fix selinux OnBoot settings crash on first boot
+- Use correct icon for ring volume
+- Themes: Expose Hard colors for storage settings
+- All updates from CM
+- For more info Track Github Activities
+
+# ResurrectionRemix - v5.6.4 - 20160223
+
+- Added back Multi Window feature
+- Stock GCC Toolchain used by default now
+- If maintainers want to use Uber or other custom toolchain, they can sync in local manifest
+- Reverted to AOSP Setup Wizard
+- RR Settings Categories organized
+- SystemUI: Show lockscreen wallpaper if no album art is available
+- QS: Show # of clients connected to hotspot
+- Revert "Frameworks: Slim Shortcuts"
+- LockScreen customization [color] improved.
+- cmsdk: insert dnd & edit tiles for 12.1 -> 13.0 upgrade
+- SystemUI: Prevent search bar flicker between recents and launchers
+- SoundRecorder: fix menu behavior on devices with hardware menu button
+- cmsdk: add common action for launching camera from screen gesture
+- Settings: Scatter and CleanUp Notification Drawer Settings
+- Settings: add config to apply custom shadow on header images
+- Settings: daylight header packs extensions
+- Revert "Settings: Add option for new poly hd custom headers
+- Dashboard tileview dividers toggle
+- Add single & double tap option to mid-lockscreen shortcuts
+- cmsdk: add Sound tile to QS
+- Set number of tile columns
+- CMSDK:Hardware Keys Tile
+- Fix systemUI restart command
+- framework: Log applied theme when apps crash
+- Screen Pinning: Show correct text for on screen nav
+- SystemUI: disable QS tile Edit mode on screen off
+- Recents : Don't show clear all if no tasks
+- SystemUI:Improve task view header layout
+- Fixed Some Statusbar lags
+- Force OpenWeatherMap to be the weather provider
+- AppSideBar Reverted due to instability
+- SysUI: LiveLockScreen Updates from CM
+- Recents: Fix Clear All Button Dissappearing Again
+- SystemUI: add caffeine qs tile
+- update secure keyguard check
+- Revert "DndTile: Always open the detailed view"
+- SystemUI: add volume tones back
+- Option for date style/position, left-right of clock
+- Return: Smart Pulldown And Enable By Default
+- Fix leftAffordanceView visibility bug
+- framework: move device key handler logic, fix gesture camera launch
+- Keyguard: Show backdrop when sim pin secure screen shown
+- Add rotation animation to navbar icons
+- Settings: Add notification light setting to system profiles
+- SimDialogActivity: Check whether there is no default sub
+- Kill App Tile
+- SystemUI: handle hiding recents search bar dynamically
+- Revert "SystemUI: Add option to disable search bar in recents
+- Notification Header Customization Colors
+- Device specific Updates
+- CM updates
+- Translations updated
+- Check GitHub commits for more.
+
+# ResurrectionRemix - v5.6.3 - 20160213
+
+- Turn back to AOSP setup wizard
+- Fix OntheGo Mode NPE
+- Notification Header Customization Colors
+- SystemUI: handle hiding recents search bar dynamically 
+- QS: Kill App Tile
+- Keyguard: Show backdrop when sim pin secure screen shown
+- framework: move device key handler logic, fix gesture camera launch 
+- Fix leftAffordanceView visibility bug
+- FWB: Add rotation animation to navbar icons
+- Update API levels and fix errors 
+- SystemUI: add volume tones back 
+- update secure keyguard check
+- SystemUI: add caffeine qs tile
+- Recents: Fix Clear All Button Dissappearing Again 
+- SysUI: Don't show LS wallpaper if LLS is available
+- Add wakelock option for flashlight
+- Update translations
+- Fix other minor issues
+
+# ResurrectionRemix - v5.6.3 - Marshmallow 6.0.1_r13
+ 
+- Android Marshmallow 6.0.1_r10-> 6.0.1_r13
+- FWB: Status bar header font style 
+- FWB: Even more fonts to LS clock 
+- Hide Lockscreen clock & date  
+- FWB: Notification Header Customizations
+- SystemUI : 3G Icon Instead Of H+ Switch
+- Custom header: Add shadow to more TextViews
+- QS: Selinux Switch Tile
+- QS: App picker Tile 
+- RR logo Location 
+- Breathing SMS 
+- SystemUI: Double tap to sleep anywhere on the lock screen
+- NavBar: Add Some More Buttons [ camera,Screenshot,Kill Task, Pie,Torch,RR --config,App picker, screenrecord, Immersive Mode]
+- SystemUI: HeadsUp whitelists 
+- SystemUI: HeadsUp blacklists 
+- HW keys tweaks 
+- FBW: Add DancingScript / ComingSoon / NotoSerif to Statusbar Temp 
+- FBW: Add DancingScript / ComingSoon / NotoSerif to Statusbar Clock
+- Make task manager button themeable
+- Hide arrows in network traffic indicators 
+- Qs : Improve Navbar Tile Logic    
+- SystemUI: handle when brightness slider is hidden 
+- SystemUI: don't add already attached qs tile pages   
+- SystemUI: smoother tile transitions when moving to 1st row 
+- SystemUI: improve tile caching mechanism 
+- Lockscreen fonts: set correct default value
+- Make lights out mode of navigation bar consistent to normal mode.   
+- SettingsProvider : Don't replay aosp defaults every boot   
+- aapt: add check for untranslatable "string-array"s   
+- pm: Fix ordering of parameters for sendPackageBroadcast.   
+- allow priveleged phone state permission to be whitelisted   
+- SystemUI: disable editing tiles while in lock screen   
+- Clean Up QSpanel   
+- SystemUI: make sure to expand all the way when flinging   
+- SystemUI: initialize drag panel with proper column count    
+- IMS: Add Ims reason info codes for supplementary service failures   
+- IMS: Fix video call forwarding options issue   
+- Add mapping string for call reject cause code 26.   
+- SysUI: Listen for changes to LIVE_LOCK_SCREEN_ENABLED   
+- SystemUI: Don't update if HeadsUp is disabled   
+- Intent: Fix a NPE on readFromParcel   
+- SettingsProvider: Add missing INTERACT_ACROSS_USERS_FULL permission   
+- Taskmanager: Reduce Logging   
+- Flip to Mute/Reject Call 
+- SystemUI: add better hints when trying to delete edit tile   
+- SeekBarVolumizer : Disable notification volume if RINGER_MODE_VIBRATE 
+- Partially revert 'SOFTAP: implement SOFTAP new requirement in framewo     
+- ZenMode : Update defaults for CTSVerifier   
+- Tethering: Fix number of device connected   
+- am: Don't take down activity process if target intent component is null.   
+- Themes: Fix CMSetupWizard package name in ThemeService   
+- Themes: def theme package is defined in CMSettings   
+- Add keylayout for Xbox One controller   
+- SystemUI: Don't update if HeadsUp is disabled   
+- SystemUI: make online cpu color green for cpu overlay   
+- Don't reuse weather controller before it's changed   
+- Wifi tile: don't set items visible from non-ui thread   
+- SystemUI: fix contracting qs settings page   
+- allow whitelisting of ACCESS_KEYGUARD_SECURE_STORAGE    
+- SystemUI: visually disable EditTile in lock screen   
+- add routing for explicit call transfer   
+- Battery: Show battery fully charged notification   
+- Fix pattern visibility settings
+- Alarm: add missing closedir after opendir when searching for RTC   
+- String update, change wording from "Mobile" to "Cellular"   
+- Frameworks: Restart last task if last task is dead   
+- SystemUI: Allow clearing recents tasks within recents button   
+- Frameworks: Lockscreen blur fix & tweak   
+- fw: Make sure to get the actual ringtone uri per subId.   
+- nms: Actually allow smsRingtone to work.   
+- SystemUI : Show create profile if user doesn't have one setup   
+- Tethering: Turn off Wi-Fi Hotspot after inactivity 
+- SELinuxTile: use runShellCommand instead of runSuCommand for getenforce
+- am: Handle potential NPE when activity info can't be resolved.   
+- SystemUI: nuke broadcast tile from user tile list   
+- base: fix window bounds for left hand navigationbar   
+- SystemUI: add flashlight notification reminder   
+- Themes: Process applied themes before boot finishes   
+- Add FDN enabled related API    
+- Themes: Get default theme from CMSettings   
+- SysUI: Make sure LLS is enabled after inflation   
+- Fix lockscreen disabling for MSIM.    
+- SystemUI: update keyguard state when profiles disable keyguard    
+- SystemUI: prompt for SIM PIN if lockscreen is disabled    
+- systemui: notify everyone that lockscreen is not going to be shown    
+- Profiles: Disable lock screen after boot    
+- The DUT can't screen shot in guest mode    
+- DocumentsUI: Expose appbar elevation value.    
+- pm: Allow fall through for protected apps validator activity.    
+- GlobalActions: Use circular user avatars    
+- LiveDisplayTile : Update entries on locale changes    
+- livedisplay: remove user hint notification when clicked    
+- GlobalActions: Fix setting ringer mode in global actions    
+- lights: Automatically generate an LED color for notifications    
+- Remove leftover power menu profile resources 
+- settings: Add preference for automagic LED colors 
+- Settings: blacklist: update iconography    
+- Fingerprint: do not error out when stopping to listen    
+- ProtectedApps: add up navigation and fix action bar icons  
+- All updates and Fixed From CM
+- Improved Translations
+- For More Info Track Github Acitivity  
+
+
+# ResurrectionRemix - v5.6.2 - 20160123
+ 
+- Revert Fix protected apps implementation (Fixes setup wizard fc) 
+- DisplayMetrics: set noncompat DPI as well 
+- Dashboard tileview double lines toggle
+- FWB: Power/reboot menu transparency
+- FWB: Volume dialog transparency
+- FWB: QS header transparency
+- SysUI: Recreate volume dialog on theme change 
+- Update adb tile drawable
+
+# ResurrectionRemix - v5.6.2 - Marshmallow 6.0.1_r10
+
+- Rework and fix navigation bar layouts + buttons 
+- Notifications: Custom colors
+- FWB: QS shade transparency
+- Notification Colors Switch
+- Hide Multi Window Again ( Causes system UI freezes )
+- Update notification and power navbar drawables
+- SysUI: Fix notification panel alignment after theme change
+- SysUI: Clean up objects when recreating statusbar
+- Themes: Fix applying theme for notifications
+- SysUI: Pass themed resources on to NavBarEditor 
+- SystemUI: Add battery saver tile
+- Notification drawer: Custom clear all icon color
+- Framework: safe headset volume option
+- Remove system ui tuner settings 
+- Change to 12hr clock
+- long press torch tile to open camera
+- Longpress power lockscreen torch
+- Immersive Recents
+- Keyguard: set separator for multi-sim CarrierText
+- pm: Add persist property to enable lazy dexopt
+- SystemUI: fix qs tile page regressions 
+- Add left QS quick pulldown
+- SystemUI: Screenshot rotation
+- Screenrecord: save screenrecord in "Screenrecords" directory 
+- Add a timer to screen record 
+- FWB: Battery saver and low battery notification toggles
+- Less notifications sound
+- SystemUI: fix disappearing tiles 
+- SystemUI: fix tiles per page when changing top tile type 
+- SystemUI: fix viewpager page recycling 
+- Paella: Enable Spanish single shift table 
+- Configurable dashboard columns
+- Breathing missedcall/voicemail
+- fix race condition between HWUI cache and renderThread 
+- SysUI: Guard against NPE in SignalClusterView 
+- SysUI: Check that backgrounds are RippleDrawables 
+- Add enabled pre-installed carrier apps 
+- SystemUI: fix lock screen tile state refresh
+- SystemUI: handle custom tile long press PendingIntents
+- SystemUI: improve qs tile layout mechanism
+- base: correctly save app notification config
+- Themes: Call recreateTheme when theme changed
+- SysUI: Fix keyguard wallpaper not updating
+- Change carrier label default font style condensed
+- Reduced carrier label default font size
+- Disable Quick Settings on secure lockscreen
+- SystemUI: Make lockscreen visualizer battery friendly
+- SysUI: Re-add status icons in recreateStatusBar() 
+- Have Battery bar controller obey Hide value 
+- Frameworks: Slim Shortcuts 
+- Fix WallpaperCropper crash when setting wallpaper over 8MB
+- base: fix num cpu check for CPU overlay 
+- Add IME Switcher icon back into the statusbar 
+- Reduce log verbosity: Don't spam logcat 
+- Turn advanced devices and file sizes on by default 
+- SystemUI: Fix NPE
+- Animate backlight quickly when display state request to change or power
+- FWB: Make all 18 font variants available to Statusbar weather temp
+- FWB: Make all 18 font variants available to Statusbar Clock
+- SystemUI: Removing padding on mobile signal group.
+- Ringtone: Add support for selection of phone ringtone for SIM-2.
+- Update translations
+- Update Turkish language
+- Fix other minor issues
+
+
+# ResurrectionRemix - v5.6.1 - Marshmallow 6.0.1_r10
+
+- Add Screencast by default
+- Theme chooser : Update theme to stock material look 
+- SystemUI : SystemUI Tuner settings modifications
+- QS: Gesture Anywhere Tile
+- SystemUI: Add longpress action for TaskManager button 
+- Base : Update default material popup animations
+- FWBase: Add 7 more power menu animations
+- [WindowManagerService] fix starting window issue
+- Qs:systemUI Restart Tile
+- QS:Add App SideBar Tile
+- Update private copy of Palette
+- Navigationbar: Add just one more button
+- QSpanel: few new vector drawables 
+- SystemUI: Expose Add Tiles DetailedView Title and Icon Color
+- fix setting new encryption password 
+- Base:Add Option to Disable Brightness Icon In Brightness Slider
+- base: add CPU info overlay 
+- base: app notifications hide when locked
+- Reset battery stats
+- QSBrighnessIcon: Make it show in notification panel
+- base: add auto brightness toggle to qs
+- Fw_base - Proximity speaker
+- Themes tile 
+- QS: add headsup tile 
+- SystemUI:Add LTE Tile 
+- SystemUI : Add RR Configurations Tile
+- Themes: Re-enable changing keyguard wallpaper
+- QSpanel: Fix FC when adding New Tile 
+- CamcorderProfile: Add 1440p camcorder profile 
+- SystemUI: Fix statusbar clock font size at times not updated on boot 
+- Live Volume Steps
+- Max Lockscreen Notification count
+- SystemUI: fix flicker when removing tiles 
+- SystemUI: add tiles detail view 
+- FWB: Add clock/date in recents while in fullscreen mode
+- FEB: Disable/Enable screenshot sound
+- Lockscreen Clock Widget Fonts
+- Launch app privacy settings when tapping on PG notification
+- network tile: Change long click action 
+- Show 4G intead of LTE switch 
+- Do not start music app when headset is unplugged 
+- Themes: Expose hard code for themes
+- Dotted circle battery
+- IME animations
+- NavBar: add power button
+- Slim Recent App Sidebar 
+- Add SlimRecents
+- Add Battery Saver QS Tile
+- Reboot/Recovery QS Tile 
+- Add Music QS Tile
+- Quick Settings: add some more tiles
+- Themes: Expose hard code color for divider sim pin 
+- Themes: Expose Hard coded colors in Quick Settings Tiles 
+- Rotation anim to Power and reboot menu
+- Power Menu animations
+- SlimDim performance boost 
+- NavigationBar : Switch to display orientation from config orientation
+- PowerManagerService: Log when proximity blocks wake 
+- Add custom camera shutter
+- Lockscreen shortcuts improvements
+- Make user avatar long clickable 
+- Frameworks: Slim doze options
+- Add Vibrate on long press Header Buttons 
+- Status bar header long click actions 
+- SystemUI: use new visualizer from Eleven 
+- LockscreenToggleTile
+- Services: DO NOT send Broadcast On boot 
+- Frameworks: Remove duplicated audio files 
+- SystemUI : Fix perf profile tile index calculation 
+- SystemUI : Add location tile from 12.1
+- Navbar on/off and custom dimensions
+- SystemUI: fix tile pages not filling up
+- FWB: Hold back to kill timeout
+- FWB: PIE: Always on the right switch
+- Update contextual headers per original from Omni
+- New contextual header images  
+- Fix other minor issues
+- Performance improvements
+
+# Resurrection Remix- v5.5.9  Lollipop-5.1.1_r26
+
+- Android 5.1.1_r24->5.1.1_r26
+- Kernel Auditor Tile
+- Add Option For 5 Tiles Per Row in QS
+- *Include GCC version and Info (for Optimized Builds Only, See Note Below (for maintainers only)) *
+- base: don't show reboot options for safe mode 
+- perf: Add support for additional power profiles 
+- SystemUI: update keyguard state when profiles disable keyguard 
+- FingerprintService: fix fingerprints disappearing 
+- Keyguard: fix fingerprint not starting after user switch 
+- SettingsProvider: load animation defaults into correct table 
+- Keyguard: Show backdrop when sim pin secure screen shown
+- SystemUI: HeadsUp: Check if view isn't already in windowManager
+- Fix crash if Exif-Tag buffer-length and component-count are both 0 
+- Update boosted audio files
+- Fix NOT_RESTRICTED network capability and enforce it
+- Don't mark NetworkRequests restricted when they don't have restricted caps
+- base: get rid of android time class
+- Listen phone state change 
+- Shell: Declare cyanogenmod WRITE for system and secure settings.
+- Recents: Fix IndexOutOfBoundsException
+- Settings: Add security level default string …
+- Remove CM translations of security_patch …
+- wifi Settings: Add a filter 
+- Settings : Update performance tile drawable reference
+- HighTouchSensitivity : Add Settings preference 
+- settings: ensure we don't call isProtectedApp with an invalid reference … 
+- Settings: Made advanced reboot option avaliable from button settings. 
+- vendor: Remove instance of server="" 
+- Vendor: add opt-out for exFAT
+- vendor: make cgroups files read-only for all users
+- Merged All StageFright Patches
+- Included All latest CM updates
+- Improved Translations
+- For Full Acitivity Track Github
+
+-*maintainerS who Make Optimized Builds using optimized Manifest Must Include the following Line at the end of the boardconfig.mk or BoardConfigCommon of device tree (without quotes:-
+"-include vendor/cm/config/opti.mk"
+
+# Resurrection Remix- v5.5.8  Lollipop-5.1.1_r24 
+
+- Fix systemUI NPE on landscape theme change 
+- telephony: Hack GSM and LTE signal strength
+- QSTiles: Set number of tile columns
+- PB: theming queue colors 
+- base: initialized context ContentResolver reference before use it
+- Lights Modes: Avoid regular values updates
+- Fix notifications tile
+- Fix FC queue to media player notifications
+
+-TRDS:Pitch Black -> Update Colors For :
+	Dialer
+	Contacts
+	Mms
+	DocumentsUI
+	SystemUI
+	Settings
+- TRDS:Pitch Black : Fix Google Account Fc	
+- Fix Plenty Of Glitches 
+- Fix Dpi Issue When Landscape Mode is Activated
+- Fix Navbar Ring Layout
+- Fix Reboot Caused By Home Button During Screen Pinning
+- Fixes For Battery Saver Warning Disabling
+- Fix For Navbar Theme Resetting On every Boot
+- Fix rotation tile animation
+- Fix horrible warning on every systemui startup. 
+- Fix navbar switch
+- Fix huge bounce-back in ListView when double-flinging 
+- PB: Dark theme for documents ui and other improvements 
+- PB :Improve sysmui dark material dialogs + bg color & fix light material font hex
+- Update audio and zen drawables 
+- TRDS : Clean up resources and fix resolver glitch 
+- TRDS:PB: Change sysenui ripple effect color
+- Add volume boosted ringtones
+- Add live lock screen previews
+- Window rotation: fix up sensor logic 
+- RotationPolicy: fix rotation toggle logic
+- BatteryService: Prevent UUC scenarios at 0%
+- Fix network stats logspam.
+- SystemUI: Remove duplicated permission
+- SystemUI: attach a queue to media player notifications
+- Disable default blending when drawing color rect 
+- FingerprintService: synchronize access to clients
+- Services : Ensure proximity check is taken into consideration
+- Revert "Don't allow deleting last remaining fingerprint"
+- Improve fingerprint management activity UX. …
+- Settings: use consistent behavior after forgetting networks …
+- Revert "Settings: clear dialog states when forgetting network" … 
+- Multiple LEDs : Illumination Bars support
+- Settings: Fix RuntimeException in InputMethod Settings
+- CMSettings: add notification play queue setting
+- Includes All Updates and Performance Enhancements By CyanogenMod 12.1
+- Merged More Translations
+- For More Updates Visit Resurrection Remix Github
+
+# Resurrection Remix Lollipop  5.1.1_r18 -> 5.1.1_r24 - v5.5.7
+
+- TRDS: Exclusive Inbuilt PitchBlack
+- Themed apps -
+
+  Framework
+  Settings
+  Systemui
+  Dialer
+  Contacts
+  MMS
+  Telephony
+  LockClock
+  ThemeChooser
+  OTACenter
+  OmniSwitch
+  
+- Heads up snooze 
+- Disable Lockscreen Media Art
+- Lockscreen see-through & blur
+- Settings: network activity indicators
+- QS: long press expanded desktop tile for detail view 
+- QS: long press flashlight tile for detail view
+- option to disable torch when the screen turns off
+- SystemUI: configurable lockscreen rotation
+- Systemui: Fix navigation bar layout
+- Live lock screen support
+- Settings:Lockscreen color >> Lockscreen Advanced
+- Add live lock screen previews
+- Add volume boosted ringtones
+- Fix harware keys are not enabled
+- Keyguard: Third party keyguard support 
+- Window rotation: fix up sensor logic 
+- Add config to show WiFi/data activity indicators
+- Shorten first boot time by filtering dexopted apps
+- SystemUI: fix switching from task manager to detailed view 
+- SystemUI: improve switching users 
+- Heads up snooze button : Expose button colors 
+- SysUI: Clean up objects when recreating statusbar
+- SystemUi: Don't show cellular data tile on secondary users.
+- fwBase : Disable lockscreen rotation by default
+- SystemUI: improve circle battery
+- SystemUi: Fix navbar actions & fix wrong switch logic
+- Fix sound settings and fix for Msim devices default ringtone issue 
+- Settings : Fix profile action offset when changing orientation
+- Settings : Don't show ringtone pref for non voice capable devices
+- Hide the lift to wake option
+- Clean up button settings
+- Update display settings & add missing imports
+- settings: fuelgauge: Always show screen on time 
+- Hide LCD density preference from secondary users
+- Give OnTheGo a checkbox instead of switch
+- carrier label : Fix ListPreference
+- Updated Translations
+- Includes All Fixes and Performance Updates From CM
+- For More Info Track Github Activities
+
+# Resurrection Remix Lollipop  5.1.1_r6 -> 5.1.1_r18 - v5.5.6
+
+- Merge tag Android-5.1.1_r18 (Clean installation highly recommended)
+- Clean recent task by shake
+- Squashed On-The-Go mode
+- On-the-go : Improve quick settings dialog
+- Clean Up Lockscreen Colors
+- Configurable lockscreen rotation Now Enabled
+- SystemUI: Long Press Lock Icon Now Loads Up torch
+- SystemUi: Fix navbar actions & fix wrong switch logic
+- Fix navbar glitches on hardware button devices
+- Turn navbar off as default
+- Add option to disable scrolling cache
+- Make all 14 font variants available to Weather
+- FWB: Make all 14 font variants available to Statusbar Clock
+- FWB: Statusbar clock font size
+- Task Manager: Use one observer for changes, misc cleanup
+- SystemUI : Navbar ring five targets 
+- Fix Weather Color icons Issue
+- Recents: Delay cleanup of remaining tasks when dismissing 
+- Settings : Add Tunings Preference in Configurations
+- Settings :Add Kernel Auduitor 
+- SlimShortcuts: Power menu 
+- SlimShortcuts: Restart SystemUI 
+- SlimShortcuts: Volume panel 
+- Actually show COS in shortcuts and show all other when COS is enabled 
+- Add Screen Sleep shortcut 
+- Fix up chamber and Torch shortcuts
+- DocumentsUI: Move & improve CAF string
+- IMS: revert: ims: More backwards-compatibility stuff
+- IMS Connection Capabilities Update
+- IMS: Allow add participant with normal IMS call.
+- IMS: Initialize audio quality with NONE instead of AMR_WB.
+- Fixing conference merge where only one party is added to conference.
+- Add call log types definition for Ims call.
+- IMS-VT: Add additional error codes for upgrade downgrade
+- Ims: Add support to query Packet Count and Packet Error Count
+- Add support for wifi calling settings
+- IMS: During CS retry, propagate reason code to UI
+- IMS: add ImsConfig api to get volte provisioned value.
+- IMS: change getMasterValue to getProvisionedValue.
+- IMS: Add interface to query call forward for specific service class.
+- Revert "ims: Bring in line with current release"
+- lockscreen: Add option for showing unlock screen directly (Gesture)
+- lockscreen: Add option for showing unlock screen directly 
+- SystemUI: Update RR Logo Drawables
+- Simplify getting total memory
+- Fix animation sequence for upload tasks
+- QS: Update visibility of items in Bluetooth/WiFi tiles
+- Themes: Set composed icon scale to 1f default
+- Default to Resolver Theme
+- Fix Custom Resolver Theming
+- Fix Resolver Theming
+- SettingsProvider: move Profile picker activity 
+- SystemUI: add missing super viewgroup method calls
+- Fix race condition in panel expansion handling. 
+- Fix Launch Notification as Float Icon
+- base: fix window bounds for left hand navigationbar
+- framework: add string for wifi subscription change notification
+- SystemUI: don't show recents if not provisioned
+- Fingerprint wakeup: more consistent behavior
+- Fixed: Wrong status bar notification layout width.
+- services: do not keep notification light on, while incall
+- SystemUI: screenshot: remove screenshot notification before taking screenshot
+- carrier label : Fix ListPreference
+- Carrier label : Remove duplicate int intColor call
+- Remove lock screen hide carrier
+- Fix typo on TR translations
+- Lock screen weather : Remove duplicate color pickers
+- Fix lockscreen settings xml (Fix locksreen shortcuts settings)
+- Settings: On-The-Go mode On-The-Go turns on the camera of your phone and streams it to an overlay, which is drawn over everything. this makes you feel like your display is transparent, as you see the content behind it.
+- Allow disabling the privacy guard notification 
+- Setting: Match brightness override padding to volume override
+- APN: Fix typo
+- settings : Squashed Updates
+- StatusBar Settings: Hide "Disable Quick Settings On Lockscreen"
+- Maintainers:Update LG G3 d855 Maintainer
+- Settings: Configurations:Add Some Preference Headers
+- vendor/cm: Remove custom resolver from OSS builds.
+- services: do not keep notification light on, while incall
+- SystemUI: screenshot: remove screenshot notification before taking it
+- QS: Make WiFi and Bluetooth tile detail view consistent
+- fingerprint wakeup: improve state and error handling 
+-  Frameworks: Add option for position date left-right of clock
+- Added Changes for Custom Resolver Activity
+- Wallpaper: Create new WallpaperObserver on user switch
+- SystemUI: Fix NPE
+- services: option to disable lock screen device policy override
+- Status bar carrier: don't show Emergency text if no sim is installed
+- Fix noticfication tile fc on long press 
+- Lights with screen on: Don't disable leds after the lockscreen 
+- core: Reduce mutex contention in ActivityManager
+- power: Boost improvements 
+- QS: Add RR Configurations Tile
+- base: report wtf for external cm services
+- native : input: Adjust priority
+- native :Set explicit ioprio where required
+- Simplify OnBoot for selinux switch
+- Updated Translations
+- Includes All Fixes and Performance Updates From CM
+- For More Info Track Github Activities
+
+  # Resurrection Remix Lollipop 5.1.1 - v5.5.5
+
+  - RR Configurations revamp
+  > Add more categories
+  > Change lots of icons - categories, and status bar
+  - OmniSwitch
+  - SystemUI: Fix blinking when reported battery level is 0
+  - Improve statusbar RR logo
+  - Status bar carrier label font size
+  - systemui: left hand navigation ring
+  - systemui: respect navigation rings configuration
+  - Long press no longer copies to clipboard if there is nothing to copy
+  - Improve configurations icons visibility (Non-transparent)
+  - Protected apps: fixup rotation states
+  - Settings: remove duplicate lockscreen shortcuts
+  - zygote: fix memory leak when fork process
+  - Show infinity for large notification counts
+  - Bold settings headers
+  - Update APNs
+  - Lockscreen colors
+  - SystemUI:Fix navbar power button overlapping when ime switcher shown
+  - Let liblights adjust the brightness of LEDs while previewing it
+  - Fingerprint: Allow disabling of vibration
+  - SystemUI: hide taskmanager panel while keyguard is showing
+  - SystemUI: reset to QS panel when swiping down
+  - Chamber of Secrets.
+  - Bold italic weather font style - More weather font styles
+  - Add time-context headers to the notification header
+  - RR Logo style --- left or right
+  - hide qs tiles with sensitive data
+  - selinux switch: getenforce() won't ask for SuperSU
+  - Fix the cell standby mobile radio active issue
+  - Toast icon switch
+  - Added show volume panel tile to QS
+  - LEDs Brightness Lights notifications brightness support
+  - Lights with Screen On - Optional allowment of lights
+  - SystemUI: do not load header bar if boot isn't complete
+  - Add a controller for in-call proximity sensor & Disable Touch by Proximity Sensor
+  - settings: Animation scale seekbars
+  - Fix proximity Speaker
+  - Fix for Hardware Buttons
+  - SystemUI: SlimDim performance boosts
+  - Show icon of package associated with Toast
+  - Fix "Select correct 12 or 24 time format" breaking Chrome
+  - LiveDisplay color profiles
+  - SystemUI: Fade keyguard visualizer along with other icons
+  - SystemUI: use new visualizer from Eleven
+  - Settings: obey prevent accidental wakeup default
+  - NetworkTraffic: Show/Hide Arrows
+  - Modify SILENT profile to restrict notification sound
+  - Fix Blank area appears between QS and Notification
+  - Themes: Allow packages to be set as non-themeable
+  - Settings: add Berlin to time zones list
+  - Settings: add a way to reset quick settings tiles
+  - Move CMHW to CMSDK
+  - Disable Headsup floating by default
+  - SignalStrength: Allow for custom signal buckets in LTE
+  - base: don't refresh visualizer tile once the tile is destroyed
+  - Device specific changes
+  - Translations update (Settings, base, OTACenter)
+  - CyanogenMod updates
+  - For more details check commits on GitHub
+
+# Resurrection Remix Lollipop 5.1.1 - v5.5.4
+
+- Proximity Speaker
+- Add three-fingers-swipe to screenshot 
+- Restore default rr wallpaper
+- Themes: don't recreateDefaults on typeface when locale changes 
+- Revert "Barrier only messages shouldn't prevent the idle handlers from running
+- base: don't refresh visualizer tile once the tile is destroyed
+- SignalStrength: Allow for custom signal buckets in LTE
+- Disable PIN entry after successful quick unlock 
+- Fix forcing media stream control on tablet 
+- Removed Anti-Piracy Support
+- systemui: Provide empty view for empty lists published in QSTile
+- audio: Playback over USB DAC connected before boot
+- [ActivityManager] Bring up Service if not schedule to restart
+- PBD: Apply the same emmc discard logic as ext4_utils 
+- SystemUI: fix empty notification space in shade_locked
+- Keyguard: Don't show keyguard if CryptKeeper enabled 
+- SystemUI: add missed super window calls 
+- Buttons: Allow setting default long-press app switch behavior
+- Lockdown AM.getRunningAppProcesses API with permission.REAL_GET_TASKS 
+- Fix telephony property access for CDMA rewrite rules in PhoneNumberUtils
+- National roaming info for new Tuenti MNC in Spain
+- Fix intent resolution of default preferred apps
+- PhoneWinowManager: resolve home car intent 
+- Themes: Theme power off and reboot dialog 
+- Expose color values for battery saver icons 
+- Fix DT2S on navbar after SlimDim 
+- Battery saver enhancements (update) 
+- Keyguard: Stop fingerprint auth when not showing 
+- Fix StrictMode violation during getDefaultApn() 
+- AppOps: fix delete ops wrongly matched issue
+- frameworks/base: synchronize surface control object access.
+- frameworks/base: Fix ContentService JNI leaks
+- Fix memory leak in AAPT 
+- Make MANAGE_DOCUMENTS permission signature|system
+- LockPatternUtils: add a static way to retreive pattern from string 
+- Keyguard: Fix scramblepin logic 
+- Revert "AdBlock
+- Fix NPE with WeatherStatus on KeyguardStatusView
+- SystemUI: update to use new Profiles LockSettings obj
+- systemui: Support remote expanded style.
+- SystemUI: Add support for external bitmap icons.
+- CaptivePortal : Ensure uri is not null 
+- TorchService: add sysfs handling
+- autobrightness: Fix the brightness dialog is not work when first enabled
+- policy: Remove references of Profiles in android.policy
+- Settings: Disable Headsup floating by default 
+- Settings: add a way to not localize zone selections
+- settings: add IMEI information to msim device status page 
+- Device info: Remove IMEI info from SIM status 
+- Use correct icons for sound settings 
+- Show "Lock screen & fingerprint" when supported
+- Expose values for themes. 
+- Cleanup SoundSettings  
+- cmsdk: Dual SIM support on CM SDK
+- vendor/cm: Provide means of uploading an artifact to maven.
+- vendor/cm: Always use gpg sign-and-deploy for deployments.
+- APN: Update configurations for Philippine networks
+- Add new Tuenti MNC SPN override name 
+- vendor/cm: Expose internal revision for platform. 
+- apns: zero-length items are evil and break auto-selection 
+- sepolicy: Allow recovery to set system properties
+- Add SettingsManagerService from cmsdk as a system service. 
+- sf: Restrict GPU tile render feature to MAX_LAYER_COUNT
+- SF: Enable context priority 
+- stagefright: Add libhwc to exynos include paths
+- stagefright: Add support for Exynos hardware audio decoding
+- stagefright: Don't crash on invalid / null AVCC atoms in MKV
+- MPEG4Extractor.cpp: handle chunk_size > SIZE_MAX
+- video: Disable resync markers
+- Includes All updates And Performance Updates From Cyanogenmod
+- For More Details Track Github Activity
+
+# Resurrection Remix Lollipop 5.1.1 - v5.5.3
+
+- Anti-Piracy Support (Will be removed on next version)
+- Display headset when plug 
+- Themes tile
+- Add options - edit PIE control second layer
+- Weather Temprature Status Bar Icon 
+- Statusbar weather color 
+- statusbar weather font size
+- Fix left weather temp padding
+- Fix for rare recents npe
+- SlimDim: don't dim navbar on lockscreen
+- SlimDim: Use semaphore to cancel ontouch callback 
+- GA = Fix size of close button drawables P2
+- Add data connection toggle for MSIM 
+- Settings: Long Term Orbits (LTO) 
+- Don't include all resource densities 
+- Settings: Add TR Translations
+- Automatic translation import 
+- Remove Duplicate Alarms
+- Fix NPE with WeatherStatus on KeyguardStatusView
+- SystemUI: Crash fix from bad camera values.
+- CellularTile: Long-click triggers detail view instead 
+- CellularTile: Fix secondary button doesn't work and change single click behavior
+- WifiTile: Fix wifi toggle state in detail view
+- Only clear icon cache when theme/icon pack applied
+- CaptivePortal : Ensure uri is not null 
+- SystemUI: Add support for external bitmap icons.
+- systemui: Support remote expanded style. 
+- systemui: Fix various issues with transparent bars 
+- camera: Unbreak the extended face detection code 
+- ActivityManagerService: Don't export 'system' process in running app list
+- systemui: move dock battery level views outside systemicons layout 
+- qs: initialize day temperature in livedisplay tile
+- SystemUi: Respect shouldCollapsePanel when handling onClick.
+- Fix statusbar dead spaces 
+- autobrightness: Fix the brightness dialog is not work when first enable auto-backlight
+- Update APN List
+- Inlcludes All bug fixes and performanced updates from cyanogenmod
+- For More Information Track github activities
+
+# Resurrection Remix Lollipop 5.1.1 - v5.5.2
+
+- Add Dock Battery
+- Improve navbar layout 
+- livedisplay: Fix issue where settings weren't applied
+- livedisplay: Round values up 
+- MediaPlayer: Add multi SIM ringtone support
+- Revert CAF's default system sound settings 
+- MediaScanner: Add support for default ringtones per sim 
+- Fix mounting of non-FAT formatted SD cards 
+- Track current user id in ThemeService 
+- Authenticate When Keyguard Resumes From Camera 
+- Fingerprint: Add break after MSG_REMOVED 
+- Status bar expanded header: Custom background color
+- Fix some issues with themes and notif bg color 
+- Add Screenrecorder To Power Menu and Quick Settings
+- SettingsProvider: Update action for Profile picker.
+- Powermenu: screenshot delay
+- SystemUI: update notification clipping when reset
+- PhoneNumberUtils: Add rewrite rule for CDMA networks in Ukraine
+- GA = Fix size of close button drawables
+- SystemUI: SlimDim
+- SlimDim: listen for touches in navbar empty areas also 
+- SystemUI: SlimDim - pref to listen on entire screen for touches 
+- SystemUI: fix battery icon jump on qs expand 
+- Fix GPS for old GPS HALs 
+- CYNGNOS-489: Fingerprint: Fix concurrent mod exception when getting Fingerprint list
+- Add fingerprint enrollment stats 
+- Settings: Hide carrier on lock screen
+- Add LOCKSCREEN_BIOMETRIC_WEAK_FALLBACK to fallbackIntent 
+- OOBE: Set next label when fingerprint enrollment done
+- Add battery saver settings to power usage summary
+- Light settings: reduce tone if preview image color is very light
+- Remove manage fingerprints from enrollment setup 
+- Use theme_accent for manage_fingerptins_primary_color 
+- Fingerprint: Cancel timeout if user leaves enrollment 
+- Settings: hide light pulse settings if not available 
+- Fingerprint: Match Enrollment UI with SetupWizard
+- Fix navigating fallback security via setup wizard 
+- Fix aliasing in FingerprintProgressBar 
+- Fingerprint: Include "Fingerprint" in the unlock title 
+- Settings: fix setting light FC 
+- Protected Apps: Monitor unlock status 
+- Keep screen on during fingerprint enrollment 
+- Fix protected apps orientation 
+- Add protected apps configChanges orientation
+- Fix config_proximityCheckOnWake setting handling 
+- Remove hardcoded textAppearance for better theme support
+- Settings:add japanese translation
+- Setup: Call setUseFingerprint() when enrollment finished 
+- Settings: Make sure we're getting the instance of ProfileManager. 
+- Settings: add Kiev time zones to picker
+- Fix Battery % display in saver threshold
+- Settings: Hide radio band selection based on config
+- vendor/cm: Introduce update-cm-prebuilts-latest-public-api.
+- vendor/cm: Clean up paths to known files.
+- Fix Rogers APN
+- APN fine tuning
+- rendang: Remove unwanted APNs
+- Hack in support for the old version of Maven
+- Themes:Update iconography.
+- Inlcludes All bug fixes and performanced updates from cyanogenmod
+- For More Information Track github activities
+
+# Resurrection Remix Lollipop 5.1.1 - v5.5.1
+
+- RAM bar: fix position without search bar In portrait and fix wrong bottom position in landscape with serch bar on. Also centralize text
+- Carrier Label: Hide on lock screen
+- Lock screen weather: Add options to hide the weather when notifications are visible,
+- SystemUI: use smaller padding for battery
+- Floating windows: Fix statusbar immersive mode for snap points.
+- Restore to stock battery padding
+- Revert Reorganize statusbar icon,text,clock padding
+- Enable Headsup floating by default
+- Do not launch floating window when on default launcher
+- Base: option to launch heads up in floating mode.
+- FWB: Torch to powermenu
+- livedisplay: Fix outdoor mode detection 
+- SystemUI: dismiss brightness slider on screen off
+- Floating windows: Fix minimize/maximize buttons coloring.
+- Floating windows: Fix when we close floating window also remove the task.
+- Keyguard: fix misaligned ripple for pin-entry backspace button
+- systemui: restore space between clock & battery
+- Gesture anywhere floating switch
+- msim: Fix saving default sim from select SIM dialog (1/2)
+- Custom carrier label: fix usage when option is off (2/2)
+- base: dock battery
+- Remove performance settings
+- Fix navbar glitches
+- Re-color navbar buttons
+- Floating windows: Fix minimize/maximize buttons coloring,Fix when we close floating window also remove the task.
+- Update Translations
+- Device specific Changes
+- Check GitHub for more details
+
+# Resurrection Remix Lollipop 5.1.1 - v5.5.0
+
+- Merge tag Android-5.1.1_r6 (Clean installation highly recommended)
+- Pie Tile
+- Add App sidebar
+- App sidebar: Long press Launch in floating mode
+- App sidebar : Fix hardcore switch & System uı FC 
+- Notifications: Launch in floating mode button. 
+- Floating windows update: Fixes and Improvements.
+- SystemUI: use smaller padding for battery 
+- SystemUI: DozeService: Prevent NPE 
+- HeadsUp snooze function
+- HeadsUp: only snooze when swiping up 
+- Fix lot of system ui issues 
+- Fix keyguard freezes 
+- Charging indicators for text-only battery view
+- Use 24dip of height for statusbar - M style
+- Update default wallpaper 
+- Update Pitch Black theme
+- OTA:Fixed property name for current file
+- Massive APN Update 
+- Fix Sprint 3G 
+- SystemUI: fix recents task view height calculation 
+- Turn off screen pinning off by default in recents 
+- Selinux Switch 
+- Add mw settings and tile
+- Make G notification font colors more compatible with dark and light themes
+- Screen pinning improvements
+- Add missing wallpaper permission
+- [ActivityManager] Refactor broadcast and reduce deliver delay. 
+- Many device specific changes as well
+- Updates from CM
+- For more detailed changelog check commits on github
+
+# Resurrection Remix Lollipop 5.1.1 - v5.4.9
+
+- Battery saver enhancements
+- Enable fingerprint option in Settings & Numerous Fingerprint Improvements
+- density: do not apply to virtual displays
+- Screen pinning improvements
+- packages/apps/Contacts/
+- Contacts: Fixed "%s" appearing in contact options in some languages
+- Russian and Italian Translations improved
+- settings: Fix developer options crash when mBackupManager is null
+- msim: fix parse error when roaming with slot 2 only
+- Forward Port Floating Window with Multitasking. Forward Port and Fixups done by BlackDragon && rogersb11
+- Selinux Switch
+- CM Recovery RAINBOW MODE MOTHERFUCKERS & improve Rainbow Mode
+- Email: Allow saving attachments even if there's no intent handling them & Allow download of compressed attachments.
+- SystemUI: dynamically generate visualizer color
+- Fix LiveDisplay notification.
+- OTACenter: remove old translations
+- Settings: fix confirm pattern crash on rotate
+- Add Left clock
+- Calculator: Remove duplicate color.
+- SystemUI: fix visualizer tile initial state
+- Frameworks/base: Add removeAll for ArraySet
+- SystemUI: Double tap to sleep anywhere on the lock screen
+- Reduce greeting default timeout
+- Dont show greeting and carrier label on keyguard
+- Fix navigation bar view after apply theme
+- Default time format is hard coded to 24
+- Enable Advanced Reboot by default
+- Remove superuser indicator option
+- Add Volume Key Answer
+- Many device specific changes as well
+- Updates from CM
+- For more detailed changelog check commits on github
+
+# Resurrection Remix Lollipop 5.1.1 - v5.4.8
+
+- Added RR logo to updater script
+- Added RR OTACenter
+- AudioService: don't launch music player while in call
+- Close cursor after getting supported components.
+- SettingsProvider: turn off mobile data roaming by default
+- Revert "Status bar expanded header: Custom background color, (2/2)"
+- Trebuchet: Don't load title from intent if title loaded from DB
+- Call recording encoder/format choice
+- Show reboot dialog using themed resources
+- Get themed resources in KeyButtonView
+- Hide blur when showing keyguard media
+- Properly animate SIM PIN entry screen transition.
+- Disable mobile network settings if sub is invalid/unusable.
+- BatteryLight: Reset all settings back to default
+- Expose values in status bar expanded header
+- Don't reinflate search view on rotate
+- Fix incall music
+- Add new dimens values for expanded status bar padding
+- Boot up optimization for phoneprocess
+- MediaScanner: Detect folders
+- SlimRecents: Update to PS19 (1/2)
+- Don't dismiss notification if expanding status bar from top of heads up
+- frameworks: display: shorten automatic brightness debounce
+- Use framework name and icon for system UID.
+- Updated RU translation
+- Many more, all updates from CM and AOSP
+- Many device-specific updates as well
+- Track github commits for a more detailed changelog
+
+# Resurrection Remix Lollipop 5.1.1 - v5.4.7
+
+- Add SlimPie
+- Slim recent app screen 
+- Over scroll effects
+- Power menu QS tile 
+- Action: Add screenshot action
+- Action: Add kill-app and last-app actions
+- SlimAction as QuickTile
+- QSTile: Reboot/Recovery tile
+- Slim Shortcuts
+- Add SuperSU root binary as preinstalled
+- Launch SuperSU from Settings 
+- Lock screen: Update Handle no weather information available
+- Update slim actions 
+- Update Bootanimations for per resolutions
+- Theme chooser: Small UI refresh
+- Modify GC Delay to include subsequent launches. (fix) 
+- Determine default 12/24 hour time format setting from locale.
+- SystemUI: prompt for SIM PIN if lockscreen is disabled 
+- Fix install apps will fail after setting Preferred install location as Removable SD card and removing SD card
+- Profiles: Setup uuid's for the defaults
+- translation imports
+- enable localization of Chinese operator's PLMN 
+- Introduce Theme Versioning
+- VolumePanel: show hint for unlinked notification slider too
+- VolumePanel: better handling of updating sliders in expanded view
+- SystemUI: fix adding headsup view after boot 
+- Task manager improvements 
+- Task Manager : On switch recreate statusbar to fix task view
+- Task manager : Remove empty notification after switch on/off logic 
+- VolumePanel: volume bar disorderly jump when drag it. 
+- Code Cleanup: No longer required as AOSP commit supersedes this 
+- Drop protection level of certain SMS-related system permissions 
+- Fix SystemUI FC on theme change (recreateStatusbar()) 
+- PowerManagerService: Fix updating of mUserActivitySummary 
+- Observer DEV_FORCE_SHOW_NAVBAR in LockTaskNotify 
+- TaskManager: Update some functions
+- Add longpress action for TaskManager button
+- Move LatinIME to phone/tablet configs
+- Settings: fix potential NPE 
+- Fix input method settings fc
+- Remove LatinIME as it is included per target in vendor/cm 
+- g3: Better performance profile values 
+- g3: use xxxhdpi dalvik and hwui memory sizes 
+- g3: init: remove bugreport service 
+- g3: init: enable tap to wake on boot
+- g3: cmhw: TapToWake: Don't attempt to parse a null from FileUtils 
+- g3: cmhw: TapToWake: detect if node exists to determine if supported 
+- g3: fix UX lags
+- hammerhead: Fix apps2d to usb storage
+- hammerhead: Give unpriviledged users write perms to USB storage
+- Performance improvements and bug fixes
+- includes Other cm 12.1 and AOSP updates
+- For extended changelog, track github activities
+
+# Resurrection Remix Lollipop 5.1.1 - v5.4.6
+
+- Android 5.1.1_r2 -> 5.1.1_r3 
+- New Bootanimation for XXXHDPI anx XXHPI devices (XHDPI AND HDPI will come soon)
+- CryptKeeper: layout whole screen in bounds 
+- Settings: add marquee to Device administrators screen 
+- CryptKeeper improvements 
+- apps2sd: Enable apps2sd for apps with unspecified install location 
+- Exclude themes from being moved to external storage 
+- Keep the content when change the orientation
+- apps2sd: Only allow move to _ if the media is mounted 
+- Status bar expanded header: Custom background color
+- Settings: Add some more entries into 'SMS message limit' menu 
+- Kill off a few MSIM tab hosts. 
+- WakeLock: Layout Improvements 
+- Add option to set default custom function to button recents
+- Add CAF Task Manager switch
+- PackageManager: don't attempt to get theme on core boot 
+- Implement better legacy support for themes 
+- AudioService: persist volume of ring stream when ringer mode changed 
+- BaseStatusBar: Inform StatusBarService if a notification is flagged spam 
+- Make default overlay for "spell checker" 
+- Return original value if icon info is null
+- Make ACCESS_THEME_MANAGER permission system|signature 
+- Measure absolute value of pointer motion distance
+- Fix racing condition of mTouchExcludeRegion
+- Only one task within the stack should moveToBack
+- Don't relayout based on a window that isn't visible
+- Remove the window whose client process has died or become zombie
+- Fix bug of unnecessary wakeups after completed syncs.
+- Fix for infinite loop in RemoteViewsAdapter
+- Fix bugs regarding delay the dispatching of non-wakeup alarms 
+- SystemUI: improve dpad arrow key state logic 
+- DreamManager: be aware of device lid 
+- Recognized multiple wallpapers in theme 
+- VolumePanel: Properly update expanded volume panel sliders 
+- Fix tiles with custom colors toggle issues 
+- Fix clock seconds display with am/pm 
+- SystemUI: Move custom tile listener service registration to phonestatusbar
+- Fix another off-by-one error in computeEllipsis 
+- Fix array bounds exception in getSecondaryStorageState …
+- Add alternate WebView provider package 
+- SystemServer: Skip TorchService construction if no flash feature detected
+- Revert to previous battery padding
+- PackageManagerService: Create means of installing prebundled applications
+- Allow sending vendor- or device-specific commands to the camera HAL
+- Revert  display: Added automatic brightness configs
+- Increase brightness faster if ambient light is brightening quickly. 
+- systemui: notify everyone that lockscreen is not going to be shown 
+- Profiles: re-enable data toggling 
+- Remove unnecessary videos 
+- Theme reboot menu 
+- Themes: Fix Reboot Background 
+- SystemUI: Add task manager
+- Fix ForceClose due to TaskManger.
+- Expose task manager values for themers 
+- Materialize task kill button & Improve Task manager UI 
+- Modify GC Delay to include subsequent launches. (fix) 
+- Determine default 12/24 hour time format setting from locale.
+- Allow changing status/navigation bars when styles selected
+- ThemeChooser: add uninstall shortcut to ChooserDetailFragment 
+- Libcore: FIX google Play Services Crash
+- translation Imports
+- msm8974: Disable BLE peripheral mode 
+- msm8974: Update WCN configuration 
+- msm8974-common: Use RIL version 10 
+- g3: Fix cpu heating
+- g2: Fix missing usbdisk0 in symlink and export
+- g2 :fix usb-otg
+- g2: FIX Double Tap to Wake For GOOD
+- g2 :Fix 4k recording profile 
+- g2: gps: Update HALs from oppo msm8974
+- sprout: Set DPI to 182
+- smdk4412:audio: enable noise suppression by default
+- hammerhead: Update build fingerprint and description to LMY48B
+- hammerhead: Give unpriviledged users write perms to USB storage 
+- Moto : Add Moto Doze Mode
+- Falcon/Titan : Add More options For Doze
+- bacon: Add Linaro Optimizations to Fix google Play Services FC
+- All Bug Fixes And performance Improvements From CM
+
+# Resurrection Remix Lollipop 5.1.1 - v5.4.5
+
+- allow overlaying default quick settings tiles 
+- base: Fix notification sounds for wifi only devices … 
+- Improve SeekBarVolumizer behavior with unlinked streams
+- policy: fix device sleeping with lid with incoming call
+- policy: respect FLAG_TURN_SCREEN_ON flag with device flip covers
+- PowerManagerService: Honor config_dreamsActivatedOnSleepByDefault 
+- Change lock gesture correct color 
+- Themes: Make parse() method in FontListParser public 
+- frameworks: fix setting up linked notification stream on boot
+- Keyguard: reinflate security views after user change 
+- Adding additional Nova theme identifier to legacy icon support. 
+- Improve Recents-View 
+- Telephony: Convert subscription ID to int from long
+- framework/base: add dock sd card string 
+- QS: fix filtering additional tiles 
+- SystemUI: Use smaller battery padding 
+- Update lock weather widget layout 
+- dozeui: Broadcast an intent when beginning a doze pulse
+- textclock: Update the time when performing a doze pulse 
+- Remove resources.apk from ZipSet when removing overlay 
+- TorchService: close all opened cameras
+- SystemUI: Fix EL translation 
+- Fix setting hotspot bounds in a drawable container 
+- Fix PackageManager crashes w/ queryIntent using callerUID of 0 
+- SystemUI: Speed up and clean tests (squash) 
+- FWB: Battery light: 100% charged level 
+- SystemServer: Allow starting of overlaid external services.
+- SystemUI: Squash custom tile commits 
+- base: Nat464: unregister network observer when we stop!
+- [ActivityManager] Avoid unnecessary restart provider process 
+- SystemUI: Point to correct permission for BIND_CUSTOM_TILE_LISTENER
+- Notification drawer: Custom clear all icon color
+- SystemUI: Squash custom tile commits
+- SystemUI: Point to correct permission for BIND_CUSTOM_TILE_LISTENER
+- Improve QSPanel.java 
+- fixup volume stream linking 
+- Clean up keyguard carrier text handling.
+- Remove some useless debug spam.
+- Revert "ConnectivityService: add persist.radio.noril"
+- SystemBars: Allow the StatusBarComponent be externally defined 
+- KeyGuard: Fix the wrong Plmn/SPN display. 
+- [ActivityManager] Move UI operation to UI handler 
+- [ActivityManager] Fix activity always visible. 
+- [ActivityManager] Finish the failed-to-pause activity
+- Profiles: make Default profile change ring mode back on 
+- Fix navbar NPE 
+- improve navbar switch 
+- Improve PreviewsColumns Implementation 
+- Don't dismiss keyguard if recreating status bar 
+- Re-add missing ellipsis string 
+- Fix LiveDisplay QS icon size. 
+- Frameworks/base: Fix old code in MediaPlayer 
+- Fix context leak 
+- Sometimes the application context is null
+- Prevent windows from freezing screen while timeout 
+- fix return value scale of notifyANR() 
+- Check caller status precisely when registering receiver. 
+- Also restart provider if there is external handle. 
+- Fix lost singleton provider after force-stopping user or package.
+- Adjust display inversion matrix to account for luminance 
+- Use the correct parent size to initialize animations 
+- Don't apply animation clip to dialog activities
+- Settings : Update blacklist strings 
+- Settings: update About screen device model fields 
+- Custom clear all icon color remove dependency 
+- Updated RU translation
+- Show Toast if usb not connected in Storage Settings 
+- Settings: fix BT switch enabling discoverable mode 
+- Used fixed size for app icon width in default sms dialog 
+- Change Usb not connected string to capital letters. 
+- Fix mobile network switch for CDMA phones
+- Do not allow privacy guard for core system apps. 
+- msm8974-common: Use RIL version 10 
+- msm8974: sepolicy: vold gets persist
+- bacon: Add more options For Ambient Display
+- g2: Add more options For Ambient Display
+- bacon: FIX Ghost touch issues
+- d855: Fix apps2sd to usb storage
+- g3:fix memory leak after return battery save mode 
+- g3: Add the ability for call recording
+- g3:wcnss: update configs and firmware from V23C
+- g3:Fix cpu heating 
+
+# Resurrection Remix Lollipop 5.1.1-r1 - v5.4.4
+
+- Reorganized button settings 
+- SettingsProvider: Make the default battery style Circle 
+- SysUI: Add lockscreen visualizer for MSIM devices
+- Themes: Pass ComposedIconInfo into createIconBitmap 
+- Themes: Add randomization to composed icon rotation 
+- frameworks: add ongoing notification while collecting bug report 
+- Re-add dump() method to TorchService
+- TorchService: improve state management
+- Themes: Translate before rotating composed icons 
+- QS: don't stay in vibrate mode when toggling to important interruptions 
+- Apply sounds on theme update 
+- Unset frame listener before tearing down GLThreadManager
+- Torch: remind user flashlight is still on
+- Doze: make brightness level and auto brightness configurable 
+- Fix fetching application context for ThemedUiContext.
+- Fix NPE in NetdResponseCode.InterfaceClassActivity
+- doze: Separate proximity check by reason
+- GlobalActions: add zen mode buttons 
+- Set DataUsageTile button padding to 8 
+- Fix DataUsageTile button layout
+- Themes: include new icon features in shouldComposeIcon()
+- optimize wallpaper load,avoid show black wallpaper. 
+- SystemUI: bluetooth tile: fix disconnect action
+- Fix ro.telephony.default_network setting parsing 
+- Fix no vibration during shutdown.
+- SystemUI: small optimization for notification icon numbers
+- ambient display: Fix volume key music control 
+- Base: enable/disable doze through Profiles
+- Make minfree values optimal for 32bit devices 
+- Fix system server crash 
+- MediaSessionService: Error checks for UserRecord object 
+- libandroidfw: Fatal exception of dlfree often causes the system crashed 
+- Update carrier label / custom & change color
+- Base: Second Clock
+- Squashed: Status bar greeting & timeout + Statusbar logo & color
+- Add missing import for navbar
+- Add Gesture Lockscreen 
+- SystemUI: Use smaller battery padding
+- Revert "Settings: use correct default value for backlight brightness"
+- Settings: fix button back light restore logic 
+- Settings: use ActivityManager method for requesting bug report 
+- Settings: persist backlight brightness setting 
+- Update VibratorIntensity
+- CryptKeeper: pattern unlock displays incorrect pw when correct 
+- Settings: disable mobile network switch when SIM isn't ready
+- Settings: fix non lock pattern CryptKeeper crash 
+- Settings: fix bad MTP uncheck behavior 
+- Improve color picker: 
+- Color picker: Enable alpha slider as default
+- Open app when clicking on icon in App Info screen 
+- hammerhead: mm-camera-interface: Retry in case of timeouts 
+- g3:Add HW keys config 
+- g3:GPS updates
+- g3:Camera Updates
+- g3:Switch to governor "conservative" for better performance results 
+- g3:Revert "Revert "ril: add support for sprint nonstandard SIM"" 
+- g3:sepolicy: mpdecision: allow socket_device dir remove_name 
+
+# Resurrection Remix Lollipop 5.1.1-r1 - v5.4.3
+
+- Update to android-5.1.1_r1 
+- Themes: Add rotation and translation to composed icons 
+- QS: Add heads up tile
+- Add preinstalled PitchBlack Theme 
+- Option to use volume keys to control media volume anytime
+- Frameworks: Allow/Prevent notification light in Zen mode
+- Invert notification backgrounds 
+- Fix HTC headset handling.
+- AudioService: fix crash when no music player found
+- frameworks: display: Added automatic brightness configs
+- Fix ANR caused by hwuiTask thread 
+- framework: add KillSwitch stubs 
+- fix Notification volume slider linking 
+- Added carrier selection to DataUsageTile
+- Show Optimizing app dialog on first boot 
+- base: ConnectivityServer: Don't reap the new network 
+- ScreenCap : Add jpeg support
+- Fix: In Afrikaans the unit name is not before size but after.
+- Return of Silent mode
+- doze: Do not bother checking proximity for the DOZE_ACTION intent 
+- printspooler: Print view crash. 
+- qs: support for all timeout value in case set by user apps 
+- Update boot string
+- Frameworks/base: Compile-time optimize SQLiteConnection 
+- Hide Volumepanel on incoming call 
+- Remove minimal dead zone at navigation bar (fix Nexus 4) 
+- Make MediaPlayer fail fast on UnknownServiceException.
+- PowerProfile: allow overriding default power profile 
+- AudioManager: update references to application context
+- Edit boot dialog swap strings
+- Fix boolean hasNavigationBar issues
+- Keyguard: only tint the sim card drawable when multisim is enabled 
+- Update navbar layout 
+- Themes: Add palettized icon background support 
+- frameworks: prepare for Profiles trust agent
+- SystemUI: improve visualier tile state management
+- ConnectivityService: add persist.radio.noril
+- Heads up tile : open notification settings action on long press
+- Heads up tıle : Grey out off vector 
+- Telecomm: Fix doc-comment-check for linking of hidden API.
+- NotificationMgr: Only do DOS protection if not updating a notification.
+- SystemUI: add a disabled state for Quick Tiles
+- SystemUI: Set Occluded to false when keyguard is not showing 
+- Black Screen: Fix dlfree error when delet mZipInflater. 
+- Launch app privacy settings when tapping on PG notification
+- Settings: re-index search after setting new lockscreen 
+- Settings: fix search key not opening search
+- settings: fix RTL layouts 
+- translation imports
+- G3 Kernel & performance ,sensor,wifi improvements
+- Performance improvements and bug fixes
+- includes Other cm 12.1 and AOSP updates
+- For extended changelog, track github activities
+
+# Resurrection Remix Lollipop 5.1.0-r5 - v5.4.2
+
+- Anadroid update 5.1.0_r5 
+- Only go HOME if screen is fully awake 
+- Fixing memory leak in RenderBufferCache
+- Fix DataInputStream leaks
+- inputservice: Allow disabling the usage of cursor layers.
+- QS: change live display off color to grey
+- Forward port pattern visibility settings
+- forward port lock pattern grid size 
+- fix race condition with occluded keyguard on non-navbar devices 
+- Add USB Tether tile 
+- Fix signal annunciators missing issue.
+- Add music tile
+- Restore proper ringtone for msim
+- EdgeGesture service: add more sensitivity steps
+- Automatic translation imports
+- Fix screen pinning averting soft reboot 
+- Zen mode add 10 and 12 hours downtime
+- Screenshots info is not updated when device is plugged in MTP mode
+- Modify the display of system default ringtone when it is none.
+- Find wall clock RTC through sysfs
+- Show operator name UI after getting valid operator name 
+- third part apps can disable the secret lockscreen 
+- Fix memory leak in Connectivity Service when phone app crashes 
+- Prevent unexpected rotation while going back to keyguard
+- Optimize IncallUI delay for voice calls 
+- Fix an apk icon animation corruption issue 
+- restrict updateExternalMediaStatus to non-emulated storage
+- Avoid duplicated calling to isRestricted to improve performance 
+- nat464X: Only update ipv4 pseudo-interface when it's connected
+- always update volumes slider state
+- Mobile data tile: open network settings
+- Add a timeout state to frozen windows
+- Allow screen unpinning on devices without navbar 
+- SystemUI: hide navigation bar faster in SetupWizard 
+- System UI: Improve Recents 
+- The DUT can't screen shot in guest mode
+- Always show ZenPanel when showing expanded volume panel 
+- animate clear recents button on exit animation 
+- add CPU info overlay 
+- allow recent tasks to draw behind the status bar
+- Statusbar header: Add vibration to settings button
+- SystemUI: Update doze pulse-in option
+- fix keyguard charging text not showing 
+- fix updating keyguard insecure lock icon 
+- WIFI Improvements
+- Fix up torch tile handling.
+- SystemUI: move keyguard visualizer behind notifications
+- Bluetooth improvements
+- Themes improvemnts 
+- Performance improvements and bug fixes
+- includes Other cm 12.1 and AOSP updates
+- For extended changelog, track github activities
+
+# Resurrection Remix Lollipop 5.1.0-r3 - v5.4.1
+ 
+- Lock screen Weather panel 
+- Add membar to recents options 
+- Quick settings customizations
+- Volume panel timeout
+- QS :Make tiles visible behind of transparent detail view 
+- Add RR boot dialog
+- Make G notification font colors more compatible with dark and light themes
+- keyguard: dont show enter key when quick unlock is enabled 
+- Use actual storage type of sdcard/usb
+- follow charging notification settings also for wireless charging
+- Hide secondary icon and divider on expanded volume panel
+- Add brightness settings to Profiles
+- If a wake key is disabled by the user, do not wake from doze. 
+- Themes: Remove unnecessary query in updateWallpaper 
+- SystemUi: Nuke secondaryIcon.
+- bootanimation: Set CPU boost hint
+- Materialize volume panel in/out animation 
+- long press back to kill configurable timeout
+- remove redundant ic_qs_signa 
+- don't use SIM display name if there isn't available info l_hp.PNG 
+- Move default value for Settings.Secure.ADVANCED_MODE to core 
+- Make forward/reverse lookup default overlay
+- add back permission-group SECURITY to fix blacklist 
+- System ui : Restore text Styles to stock
+- systemui: Boost when expanding the notification shade 
+- fix BluetoothControllerImpl formatting issues 
+- Fix FC after starting screen recording
+- policy: don't allow app switch/recents key to be pressed on lockscreen
+- included all cm 12.1 updates and fixes
+- For extended changelog, track github activities
+
+# Resurrection Remix Lollipop 5.1.0-r3 - v5.4.0
+
+- Switched to Android version 5.1.0- r3 
+- Changelog 5.1.0 - https://paste.teknik.io/1010?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+xda-developers%2FShsH+%28xda-developers%29
+- Changelog 5.1.0 r3 - http://dev.bukkit.org/bukkit-plugins/herochat/pages/changelog/r3/
+- Reverted volume panel timeout 
+- Reverted QS Customization
+- All other RR 5.3.9 features still presents
+- Enjoy the best android experience  
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.9
+
+- Fix 2g/3g/LTE switch
+- Allow lock screen visualizer to be disabled
+- Use 100K steps for color temperature sliders.
+- livedisplay: Fix for multiuser 
+- merge ProfilesList into ProfilesSettings
+- Regulatory text color: make this readable 
+- Return stock colors on default material settings theme
+- Add left padding to wakelock title/summary
+- Dotted circle battery option
+- livedisplay: Add an "off" state
+- Added a check if a custom activity can be started
+- Revert Port long press back to kill configurable timeout 
+- MTP: Update JNI for new packet getters 
+- Themes: Switch themes when user changes
+- Factory reset: Allow passing wipe_media to recovery 
+- SystemUI: CellularTile support multi-sim 
+- Lockscreen visualizer: Disable out animation
+- Do not start music app when headset is unplugged
+- Clean up keyguard carrier text handling. 
+- livedisplay: Updated icon from Asher 
+- Themes: Change themeChange config value to 0x300000
+- Themes: Add CONFIG_THEME_FONT to Configuration.diff()
+- SysUI: Clip to outline in ActivatableNotificationView 
+- Remove more duplicate sounds 
+- Provider: Add multi SIM ringtone support in SettingsProvider
+- Properly clean up when setting new InputFilter.
+- AudioEffect JNI: use new max preprocessing constant 
+- Fix build breakage in older branches by avoiding <> notation
+- keyguard: don't use eq visualized in LowEndGfx devices
+- Themes: Process theme resources after package scanned
+- Themes: Switch themes when user changes 
+- Improve system ui pngs & add missing navbar buttons for other resolutions
+- Mising back_ime_land.png
+- Unknown source apps: enable apk installation by default
+- SystemUI: improve recreating statusbar 
+- And other bug fixes and improvements 
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.8
+
+- Implement ambient display as Active Display
+- add visualizer to lock screen 
+- Double tap to sleep on navigation bar
+- Wakelock Blocker
+- Fix race condition in setting notification panel height 
+- Implement active display adjustment and tile
+- Change to CmHardwareService
+- Force Expanded Notifications
+- Hide unused msim icons on setting preference
+- Mirroring layout on RTL languages
+- animate clear recents exit
+- Fix some notification still unreadable
+- Quick settings customizations and fixes
+- Improve HeadsUp
+- Materialize toast frames 
+- Ambient display tile 
+- fix qs main tiles settings not refreshing tiles
+- long press lock screen lock icon to sleep (1/2)
+- hide floating clear all only if were removing all tasks 
+- update battery saver off and sync drawables
+- don't show headsup if IME is showing
+- launch default music player on headset connect
+- Don't show warning notification on disabled. 
+- Fix MSimSignalClusterView padding when no sims inserted.
+- Themes: fixes and improvements
+- Volume panel timeout 
+- Fix Battery saver mode
+- Themes: fix copy paste error for applying ringtone/alarm 
+- modify default system profiles
+- add advanced_mode
+- prevent doze notifications from inverting
+- fix doze pickup 
+- Add missing back_ime_land.png 
+- Fix NP transparency background vector glitches
+- hide Ambient display tile if not supported 
+- Move vibration intensity option to misc settings
+- translation imports
+- g3: enable otg storage settings
+- And ton of improvements
+- includes all cm updates
+- And much more.
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.7
+
+- Add power button to navbar
+- App Circle Bar tile
+- NavBar tile
+- long press back to kill configurable timeout
+- Themes: Use rounded rect for heads up notification 
+- Themes: Enhanced theming capabilities
+- Avert duplicating translation in drawing a background drawable 
+- Strings improvements 
+- base: LT translations
+- Update DPI settings
+- Fix mobile network settings for multi sim
+- Update mobile network settings
+- Update data usage settings
+- set volume wake dependency in code
+- Update Translations
+- TeleService: Add all supported network modes
+- Improve multi-sim data configuration 
+- Lot of bug fixes and improvemens 
+- includes all cm updates
+- And much more.
+- Happy flashing..
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.6
+
+- Removed PitchBlack Theme from system/app
+- PitchBlack Now available on play store for free: https://play.google.com/store/apps/details?id=com.resurrectionremix.pitchblack
+  Note:Playstore version wont work on RR version 5.3.5
+ 
+- Fixed bootloop after theme change 
+- Themes: Get mFontPkgName hashCode not mIconPkgName's 
+- Expanded Desktop : Fix Left handed navbar during landscape mode
+- Enable Buttons and Status Bar settings Multi-user enabled
+- Use actual storage type for format message strings
+- Fix for ambiguous and broken disk formatting dialog
+- Storage; Fix apps2sd for noemulated secondary storage
+- GlobalActions: Always add power off option to power menu 
+- Expose hardcoded colors
+- Themes: Include ThemeConfig for ResourceKey hash 
+- Themes: Add theme change timestamp to ThemeConfig 
+- Fix Profiles settings screen padding
+- Power Menu: remove power as an option 
+- Don't show "Eject card" if the card is not accessible 
+- Fix detection of USB/UICC volumes
+- Performance -> Battery mode 
+- improved performance and stability 
+- g3: fix external storage permissions 
+- g3: Remove deprecated Camera2 overlays
+- hammerhead: Tweak speaker and headphone volumes
+- includes all cm updates
+- And much more.
+- Happy flashing..
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.5
+
+- Update and fixes for PitchBlack theme
+- Navigation bar button color
+- QS:Battery saver tile 
+- QS:Brightness tile 
+- QS:Expanded desktop tile 
+- QS:Screen off tile 
+- QS:notifications tile 
+- Slim doze options
+- fix performance profile not showing up 
+- Optimizing app dialog on first boot
+- fix bunch of issues after apply theme 
+- Create configurable default expanded desktop style. 
+- Don't lookup application keyguard notification visibility unnecessarily
+- Hide privacyguard notifications on keyguard 
+- AppOps: fix deadlock issue when showing dialog 
+- Themes: Include ThemeConfig for ResourceKey hash
+- Themes: Add theme change timestamp to ThemeConfig 
+- Themes: Don't clip notification when a theme defines a larger radius 
+- Themes: Fix theme package name being set to target's
+- fix flashlight tile inconsistency 
+- Disable lock screen after boot
+- Prevent power key capture when screen is off
+- Hide msim 'no-sim' icons 
+- fix performance profile not showing up 
+- fix status bar activity indicators getting stuck when disabling
+- Hide privacyguard notifications on keyguard 
+- Move changelog to about resurrection 
+- Rename : Resurrection tools >>> Configurations
+- Add touchscreen hovering support
+- Update translations
+- move gestures setting in to device section
+- hammerhead: Update removable disk configuration 
+- hammerhead: return to stock DPI
+- includes all cm updates
+- Bug fixes
+- And much more..
+- Enjoy!
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.4
+
+- PitchBlack Theme Initial release
+- Option to disable search panel (navrings)
+- Add ability to disable a lockscreen shortcut 
+- fix more battery drain
+- improved overall stability 
+- Add default revision for AOSP remote 
+- apply default profile after resetting them 
+- Fix for bluetooth issues
+- RR Tools RU and PL translations
+- Update and make cLock app themeable
+- Move cLock app to misc
+- Remove image from about resurrection
+- Fix lockscreen issues
+- Disable Ambient display bools as default
+- Fix profiles crash
+- lowmemorykiller: Fix high min-free values 
+- Performance: fix mix/max cpu frequency
+- improve lockscreen tile behavior
+- Stylus gestures features for note devices
+- Add setting for updating recovery 
+- AppOps: fix deadlock issue when showing dialog 
+- VolumePanel : Check if StreamControl is null
+- Themes: Add tm command line tool 
+- Msim: Use SIM display name 
+- Fix for some of theme issues 
+- Move navring app loading to background tasks 
+- Make navbar back,recent not re-assignable
+- Improve nav ring swipe behavior 
+- Fix Power Shutter Exception
+- PhoneWindowPolicy: Fix NPE race condition by excessive screen on delay 
+- Camera : allow camera to use power key as shutter
+- g3-common: increase overall volume levels
+- includes all cm updates
+- Bug fixes
+- And much more..
+- Enjoy!
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.3
+
+- Lockscreen shortcut customization
+- Navbar customization
+- Navbar ring targets 
+- NavigationBar fixes 
+- Option to show four tiles per row
+- Add new 100 hd lockscreen shortcus icons 
+- Add screen timeout tile
+- Fix AudioFX tile
+- QS: add Screenshot tile
+- QS: add Sync tile
+- protected SMS
+- Fix for statusbar header weatherReceiver issue
+- fix unpinning locked apps
+- Fixes and update Theme chooser resources 
+- Disable ticker 
+- fix ambient display issues
+- Fix issues .system ui fc s and ui refreshes after apply themes 
+- Update lockscreen quick unlock
+- Exact solution for FC s on NavigationBarView 
+- Fixes for lockscreen issues
+- Fixes for profile settings
+- Update theme chooser icon 
+- g3-common: cmhw: Don't cache tap-to-wake setting 
+- g3: Fix hispeed frequency 
+- g3 kernel updates
+- hammerhead: Add QCOM effect blobs 
+- hammerhead: Remove speaker drc flag from audio policy
+- hammerhead: kernel updates
+- includes all cm updates
+- And much more..
+- Enjoy!
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.2
+
+- Fix and Enable DOZE (Ambient Display) (it will works if your device supports)
+- Doze (ambient display) timeout option
+- Skip Misc/Overcounted battery stats in builds
+- Add expanded desktop
+- Make power dialog profile and screenshot PNGs themeable 
+- Update Gestures anywhere close button to (Material FAB) and make gesture color themeable 
+- Fix Status bar Carrier label issues
+- clean up hiding search bar
+- Update cLock theme
+- Expand Recents to the top if Search is disabled
+- Fixes for bluetooth
+- Add "Accept all files" option for incoming file via BT
+- SystemUI: reset timeout when expanding volume panel 
+- Revert Keyguard: Create lockscreen weather (Because CM Team reverted from their source to)
+- Hide GlowPadView warnings
+- Themes: Restructure resource cache
+- SystemUI: Fix the wrong speech in TalkBack application. 
+- Keyguard: Avoid null pointer exception
+- Include material ringtones and notification sounds
+- storage: Don't list removed volumes in storage list 
+- WindowManagerService: Fix On-Screen keyboard popups when hw-keyboard is present
+- Do not allow the navigation bar to move if width == height 
+- Centralize QuickSettings constants
+- bootanim: Add continuous splash support
+- Themes: Ensure themed fonts always have fallbacks 
+- lowmemorykiller: Overwrite LMK parameters for low-tier devices 
+- Themes: System theme should clear wallpaper 
+- Themes: Update LoadedApk resources. 
+- Themes: Fix font layout missing a view
+- Themes: Clear out icon resources for non-composed icons
+- Themes: Fix launching themes using APP_THEMES category
+- SystemUI: animate expanded volume panel 
+- ExpandedVolumePanel: Fix SystemUI FC when expands volume panel from Notifications tile
+- fix derp after theme engine implemented
+- Prevent AudioService dead lock issue. 
+- MediaCodec/Image: handle null cropRect correctly 
+- Fix GPS for old GPS HALs
+- SystemUI : Add QSDetailItems 
+- SystemUI: add Profiles tile 
+- SystemUI : Add adb over network tile
+- SystemUI: add NFC tile 
+- SystemUI: port compass tile to cm-12.0
+- SystemUI: port lock screen toggle tile
+- SystemUI: Create LteTile 
+- SystemUI: add AudioFX/visualizer tile (beta)
+- Reduce default animation duration 
+- DocumentsUI: update launcher icon
+- ShutdownThread: dont show advanced reboot options when long pressing power off
+- Settings: fix empty Wifi triggers screen 
+- Settings : Update for centralized quick settings 
+- Cleanup and fix QS tile implementation
+- Settings: Enforce non-blank profile names 
+- Update APN S
+- G3 - Boost cpu and performance
+- G3 - Add bools for DOZE
+- G3 - charger: fix warnings
+- G3 - charger: remove charger pecentage
+- G3 - Fix kernel issues 
+- hammerhead: mixer_paths: Enable compander last 
+- hammerhead: Kernel updates
+- Bug fix and source updates from cyanogenmod
+- For more information about changelog check out the RR Github sources
+- Note :Full Wipe installation (Highly Recommended) .After a long test. There is no problem found. Happy flashing..
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.1
+
+- Switch to Resurrection style light material theme
+- Make RR tools icons themeable 
+- Remove italic fonts from settings
+- Power menu: add sound toggle
+- Keyguard: Create lockscreen weather
+- Settings: check if ime switcher pref was remove previously
+- Privacy guard: option to disable notification
+- Fix NPE in HighTouchSensivity 
+- Settings: Show SAR on Regulatory Info (from CM11) 
+- Delay Explicit GC from the SystemServer. 
+- SystemUI: Remove redundant and broken setText on temperture view.
+- Camera2 legacy: retry EGL config without EGL_RECORDABLE_ANDROID
+- Fix nav button ripple getting stuck (Update)
+- Phone: Sprint MWI Quirk: Phantom message wait indicator workaround
+- G3 - fix WIFI cannot connect issue
+- Hemmerhead : Enable performance processor settings
+- Bug fix and source updates from cyanogenmod
+- For more information about changelog check out the RR Github sources
+- Happy flashing.
+
+# Resurrection Remix Lollipop 5.0.2 - v5.3.0
+
+- Update heads up notifications with swipe actions +(Master Switch-Timeout-Blacklist and do not disturb options)
+- Add Theme engine
+- Quick Settings Updates
+- Re themed settings and Themes app
+- Update cLock app with material theme
+- Create expandable volume panel.
+- App Circle Sidebar & Support for Configurable Trigger Region 
+- Custom System Animations 
+- Status bar header long click actions 
+- Allow custom density option
+- Fix more memory leaks
+- Fix FC on HU language update settings strings
+- Revert ticker option for now :Causes system ui fc s(enabled as system default)
+- Settings : Make RR Tools icons themeable
+- Fix system ui crash while continuously click flash light tIle issue
+- SystemUI: Fix user profile activity overlapped by status bar panel issue 
+- Quick settings: fix ripple placement for dual tiles 
+- ConnectionSettings: Add 4g as connection options for profiles
+- SystemUI: unbreak accesibility longpress Overview to unpin 
+- wifi: Framework support for Ad-Hoc WiFi (IBSS mode)
+- Fix "ghost" weather display in expanded status bar 
+- DocumentsUI: catch NPE
+- Update RemoteController on Session update
+- ProcessList: Handle invalid state when computing next PSS Time
+- privacyguard: Add Superuser summary
+- Update RR_string french translations 
+- Settings: Improve battery percentage title 
+- hammerhead: set persist.sys.isUsbOtgEnabled to enable USB storage. 
+- G3 : change DPI to 532
+- G3 . boost sound volume
+- G3 : Increase boost duration 
+- G3 : enable all hardware button options 
+- Bug fix and source updates from cyanogenmod
+- For more information about changelog check out the RR Github sources
+- Enjoy.. 
+
+# Resurrection Remix Lollipop 5.0.2 - v5.2.9
+
+- Add customization for Quick Settings
+- Quick settings: Option to disable brightness slider
+- Power menu customizations
+- Status bar carrier label 
+- Gestures lockscreen Secure
+- Battery bar customizations 
+- DocumentsUI: Add a standalone File Manager
+- Enable tap to be developer
+- Improve settings fonts
+- SystemUI: fix navbar ripple getting stuck 
+- Changed profile selection to single-tap action
+- Clean up keyguard carrier text handling.
+- Option to ignore the last app when clearing recents
+- Use fadein/fadeout anim on FAB button
+- Add Fade in and Fade out effect to Recents FAB button
+- Add system setting for t9 search input locale 
+- Wake Keys: enforce the wake keys overlay 
+- Allow disabling Search/Recents button wake
+- profiles: clean up default profiles
+- MountService: support UMS on any volume
+- System UI :Add HU translations
+- Edit Status bar BatteryLevelTextView 
+- Edit status bar text size and style 
+- Resurrection Tools FR Translations
+- G3 - d855: Add LTE support 
+- G3 - fix wifi issues 
+- G3 - add usb charging mode
+- G3 - add dummy LgDataFeature telephony class 
+- MSıM updates
+- Bug fix and source updates from cyanogenmod
+- For more information about changelog check out the RR Github sources
+- Enjoy..
+
+# Resurrection Remix Lollipop 5.0.2 - v5.2.8
+
+- Update popups animation 
+- StatusBar Ticker option
+- Add navigation bar master switch option
+- Add resurrection remix logo to about settings 
+- Recents panel clear all button tweaks
+- Replace recents clear all button with a fab button
+- update maintainer list
+- Update Hungarian RR strings 
+- Remove the superuser app 
+- Update superuser
+- Add an 
