@@ -47,7 +47,7 @@ Currently it is updated to Android 6.0.1.
 
 # DOWNLOAD
 
-- [Download last build](https://github.com/Fabb2303/ResurrectionRemix-M-Z00L/tree/master/Build)
+- [Download last build](https://s.basketbuild.com/devs/Fabb2303/RRM/Z00L)
 
 # TWRP
 
