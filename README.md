@@ -41,13 +41,14 @@ Currently it is updated to Android 6.0.1.
 
 # CHANGELOG
 
-- [Cyanogenmod Z00L Changelog](https://github.com/Fabb2303/ResurrectionRemix-M-Z00L/blob/master/CM_changelog_Z00L.md)
-- [Resurrection Remix Changelog](https://github.com/Fabb2303/ResurrectionRemix-M-Z00L/blob/master/RR_Changelog.md)
+- [Cyanogenmod Z00L Changelog](https://www.cmxlog.com/13/Z00L/)
+- [Resurrection Remix Changelog](https://gist.github.com/westcripp/8874051)
 
 
 # DOWNLOAD
 
 - [Download last build](http://adfoc.us/35577259135286)
+
 # TWRP
 
 - TWRP Official Z00L  [Download](https://dl.twrp.me/Z00L/)
@@ -87,6 +88,8 @@ Currently it is updated to Android 6.0.1.
 - Flash ROM using ClockworkMod or TWRP recovery
 - Reboot
 - Enjoy!
+
+If you use Adaway or Similar add  adfoc.us to exceptions
 
 # SCREEN
 
