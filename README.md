@@ -47,7 +47,7 @@ Currently it is updated to Android 6.0.1.
 
 # DOWNLOAD
 
-- [Download last build](https://s.basketbuild.com/devs/Fabb2303/RRM/Z00L)
+- [Download last build](http://adfoc.us/3557721)
 
 # TWRP
 
