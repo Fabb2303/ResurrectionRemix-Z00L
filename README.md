@@ -47,7 +47,7 @@ Currently it is updated to Android 6.0.1.
 
 # DOWNLOAD
 
-- [Download last build](http://adfoc.us/35577259135286)
+- [Download last build](http://adfoc.us/35577259135735)
 
 # TWRP
 
