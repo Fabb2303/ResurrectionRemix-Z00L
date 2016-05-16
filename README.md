@@ -36,13 +36,13 @@ Resurrection Remix ROM is based on AOKP, CM, SlimROMs creating a combination of 
 It is one of the most stable ROM, customizable and updated.
 Currently it is updated to Android 6.0.1.
 
-- [RESURRECTION REMIX FEATURES](http://www.resurrectionremix.com/#features)
-- [RESURRECTION REMIX WEBSITE](http://resurrectionremix.com/)
+- [RESURRECTION REMIX FEATURES](http://adfoc.us/35577259157221)
+- [RESURRECTION REMIX WEBSITE](http://adfoc.us/35577259164604)
 
 # CHANGELOG
 
-- [Cyanogenmod Z00L Changelog](https://www.cmxlog.com/13/Z00L/)
-- [Resurrection Remix Changelog](https://gist.github.com/westcripp/8874051)
+- [Cyanogenmod Z00L Changelog](http://adfoc.us/x59163838)
+- [Resurrection Remix Changelog](http://adfoc.us/x59164625)
 
 
 # DOWNLOAD
@@ -51,12 +51,12 @@ Currently it is updated to Android 6.0.1.
 
 # TWRP
 
-- TWRP Official Z00L  [Download](https://dl.twrp.me/Z00L/)
-- [XDA Official Project](http://forum.xda-developers.com/zenfone-2-laser/orig-development/recovery-twrp-3-0-0-0-touch-recovery-t3317513)
+- TWRP Official Z00L  [Download](http://adfoc.us/x59164627)
+- [XDA Official Project] (http://adfoc.us/x59164634)
 
 # GAPPS
 
-- The Open GApps Project (Racommended) [DOWNLOAD](http://opengapps.org/) 
+- The Open GApps Project (Racommended) [DOWNLOAD](http://adfoc.us/x59164640) 
 
 # INSTALLATION INSTRUCTIONS:
 
@@ -101,10 +101,10 @@ If you use Adaway or Similar add  adfoc.us to exceptions
 
 # SOURCE CODE:
 
-- Source Code RR:  [Github Resurrection Remix](https://github.com/ResurrectionRemix) 
-- Source Code CM:  [Github Cyanogenmod](https://github.com/CyanogenMod) 
-- Source Code OMNI: [Github OmniRom](https://github.com/omnirom/) 
-- Source Code SLIM:  [Github SlimRoms](https://github.com/SlimRoms/) 
+- Source Code RR:  [Github Resurrection Remix](http://adfoc.us/x59164648)
+- Source Code CM:  [Github Cyanogenmod](http://adfoc.us/x59164650)
+- Source Code OMNI: [Github OmniRom](http://adfoc.us/x59164656) 
+- Source Code SLIM:  [Github SlimRoms](http://adfoc.us/x59164659)
 
 # THANKS:
 
@@ -119,4 +119,4 @@ If you use Adaway or Similar add  adfoc.us to exceptions
 
 # XDA
 
-- [XDA](http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391) 
+- [XDA](http://adfoc.us/x59164662)
