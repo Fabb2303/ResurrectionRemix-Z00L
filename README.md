@@ -89,6 +89,11 @@ Currently it is updated to Android 6.0.1.
 - Reboot
 - Enjoy!
 
+# UPDATE KERNEL:
+
+- Settings>Configurations>Updates
+- Update Kernel
+
 If you use Adaway or Similar add  adfoc.us to exceptions
 
 # SCREEN
