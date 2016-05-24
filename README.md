@@ -48,6 +48,7 @@ Currently it is updated to Android 6.0.1.
 # DOWNLOAD
 
 - [Download last build](http://adfoc.us/35577259135735)
+- [Download last Kernel](http://adfoc.us/35577259363311)
 
 # TWRP
 
@@ -93,6 +94,7 @@ Currently it is updated to Android 6.0.1.
 
 - Settings>Configurations>Updates
 - Update Kernel
+- Download and install with TWRP
 
 If you use Adaway or Similar add  adfoc.us to exceptions
 
