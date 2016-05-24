@@ -96,8 +96,6 @@ Currently it is updated to Android 6.0.1.
 - Update Kernel
 - Download and install with TWRP
 
-If you use Adaway or Similar add  adfoc.us to exceptions
-
 # SCREEN
 
 ![S1](http://s32.postimg.org/qcj3ey2ol/Screenshot_20160409_210644_jpg_key_f_Ima63e_Wn_QP_0.jpg)
