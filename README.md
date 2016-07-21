@@ -95,7 +95,7 @@ Currently it is updated to Android 6.0.1.
 If you appreciate my work make me a donation so I entice to do new projects. 
 If you want to thank me for my hard work click the link below 
 
-[DONATION LINK](https://goo.gl/MiuZl9)
+[DONATION LINK](https://www.paypal.com/eg/cgi-bin/webscr?cmd=_flow&SESSION=la-hT4nv_3lpRiAah9cXchMAkui18D6lGTD47rMdA0y1bcGrH9IFitOZJyu&dispatch=5885d80a13c0db1f8e263663d3faee8d64813b57e559a2578463e58274899069)
 
 # SCREEN
 
