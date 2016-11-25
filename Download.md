@@ -1,4 +1,4 @@
-# Resurrection Remix M for Z00L
+# Resurrection Remix for Z00L
 
 ## &#x1F534; Download Links &#x1F534;
 
