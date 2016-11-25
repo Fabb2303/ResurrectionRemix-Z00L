@@ -1,4 +1,4 @@
-#  Unofficial Resurrection Remix Marshmallow (Z00L) 
+#  Unofficial Resurrection Remix Nougat (Z00L) 
 
 ![Z00T_phone](https://wiki.cyanogenmod.org/images/thumb/0/05/Z00T.png/150px-Z00T.png)
 
@@ -34,20 +34,19 @@ Copyright 2016 - The CyanogenMod Project.
 
 Resurrection Remix ROM is based on AOKP, CM, SlimROMs creating a combination of performance power customization and new features on your device!
 It is one of the most stable ROM, customizable and updated.
-Currently it is updated to Android 6.0.1.
+Currently it is updated to Android 7.1.
 
 - [RESURRECTION REMIX FEATURES](http://www.resurrectionremix.com/#features)
 - [RESURRECTION REMIX WEBSITE](http://www.resurrectionremix.com)
 
 # CHANGELOG
 
-- [Cyanogenmod Z00T Changelog](https://www.cmxlog.com/13/Z00L/)
-- [Resurrection Remix Changelog](https://gist.github.com/westcripp/8874051)
+- [Cyanogenmod Z00T Changelog](https://www.cmxlog.com/14.1/Z00L/)
+- [Resurrection Remix Changelog](http://resurrectionremix.github.io/changelog.html)
 
 # DOWNLOAD
 
 - [Download last build] (https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L)
-- [Download last Kernel](https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L/Kernel)
 
 # TWRP
 
@@ -99,10 +98,7 @@ If you want to thank me for my hard work click the link below
 
 # SCREEN
 
-![S1](http://s32.postimg.org/qcj3ey2ol/Screenshot_20160409_210644_jpg_key_f_Ima63e_Wn_QP_0.jpg)
-![S2](http://s32.postimg.org/3qds27oyd/Screenshot_20160409_210721_png_key_z6_LGTk_K7_LBGh_F.png)
-![S3](http://s32.postimg.org/fojxtui39/Screenshot_20160409_210757_png_key_v2so_f_g_Zv_Sm.png)
-![S4](http://s32.postimg.org/tr5v8tnh1/Screenshot_20160409_210845_png_key_9_Xsvh_YOJNH_Zr.png)
+SOON!!
 
 
 # SOURCE CODE:
