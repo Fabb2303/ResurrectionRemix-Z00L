@@ -1,4 +1,4 @@
-#  Unofficial Resurrection Remix Nougat (Z00L) 
+# Resurrection Remix Nougat (Z00L) 
 
 ![Z00T_phone](https://wiki.cyanogenmod.org/images/thumb/0/05/Z00T.png/150px-Z00T.png)
 
@@ -42,11 +42,11 @@ Currently it is updated to Android 7.1.
 # CHANGELOG
 
 - [Cyanogenmod Z00T Changelog](https://www.cmxlog.com/14.1/Z00L/)
-- [Resurrection Remix Changelog](http://resurrectionremix.github.io/changelog.html)
+- [Resurrection Remix Changelog](https://github.com/Fabb2303/OTA/blob/master/RR_Changelog.md)
 
 # DOWNLOAD
 
-- [Download last build] (https://basketbuild.com/devs/Fabb2303/ResurrectionRemix/Z00L)
+- [Download last build] (https://github.com/Fabb2303/ResurrectionRemix-Z00L/blob/master/Download.md)
 
 # TWRP
 
@@ -112,7 +112,6 @@ SOON!!
 
 - LuK1337
 - luca020400
-- sarath21
 - Asus
 - RR Team
 - CM Team
