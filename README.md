@@ -120,4 +120,4 @@ SOON!!
 
 # XDA
 
-- [XDA](forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-m-t3355391)
+- [XDA](http://forum.xda-developers.com/zenfone-2-laser/development/rom-resurrection-remix-n-t3509698)
