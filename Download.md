@@ -5,6 +5,7 @@
 |Build Date|RR Version|Android Version|Status|MD5|Download Link
 |----:|:-----|:-----|:-----|:-----|:-----|
 | |
+|20161207|5.8.0|Nougat|Online|69f0a8c63e1e97952a67b4ad8befce7c|[Download](https://basketbuild.com/filedl/devs?dev=Fabb2303&dl=Fabb2303/ResurrectionRemix/Z00L/ResurrectionRemix-N-v5.8.0-20161207-Z00L.zip)
 |20161129|5.8.0|Nougat|Online|95449233e715f190ef71a1bd20bb4f21|[Download](https://basketbuild.com/filedl/devs?dev=Fabb2303&dl=Fabb2303/ResurrectionRemix/Z00L/ResurrectionRemix-N-v5.8.0-20161129-Z00L.zip)
 |20160923|5.7.4|Marshmallow|Online|2c9c4b2a636e143f29bf6a6fc3d1a779|[Download](https://basketbuild.com/filedl/devs?dev=Fabb2303&dl=Fabb2303/ResurrectionRemix/Z00L/ResurrectionRemix-M-v5.7.4-20160923-Z00L.zip)
 |20160905|5.7.3|Marshmallow|Online|8d00db10115e7dda0578a955314c41d1|[Download](https://basketbuild.com/filedl/devs?dev=Fabb2303&dl=Fabb2303/ResurrectionRemix/Z00L/ResurrectionRemix-M-v5.7.3-20160905-Z00L.zip)
